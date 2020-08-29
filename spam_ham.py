@@ -34,7 +34,7 @@ def message_text_process(mess):
 df['text'].head().apply(message_text_process)
 
 from sklearn.feature_extraction.text import CountVectorizer
-
+cv = CountVectorizer()
 bag_words = CountVectorizer(analyzer = message_text_process).fit(df['text'])
 print(len(bag_words.vocabulary_))
 
@@ -63,3 +63,4 @@ print(accuracy_score(expected,predicted))
 import pickle
 
 pickle.dump(spam_detect,open("spam_model.pkl","wb"))
+pickle.dump(cv, open('cv.pkl', "wb"))
