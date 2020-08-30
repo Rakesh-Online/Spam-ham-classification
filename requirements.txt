@@ -1,12 +1,30 @@
-pandas~=1.1.1
-joblib~=0.16.0
-flask~=1.1.2
-scikit-learn~=0.23.2
-Werkzeug~=1.0.1
-wincertstore~=0.2
-itsdangerous~=1.1.0
-Jinja2~=2.11.2
-nltk~=3.5
-numpy~=1.19.1
-scipy~=1.5.2
-gunicorn~=20.0.4
+certifi==2020.6.20
+click==7.1.2
+cycler==0.10.0
+Flask==1.1.2
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+kiwisolver==1.2.0
+MarkupSafe==1.1.1
+matplotlib @ file:///C:/ci/matplotlib-base_1597858295275/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1596233948451/work
+olefile==0.46
+pandas @ file:///C:/ci/pandas_1598353517372/work
+pickle5==0.0.11
+Pillow @ file:///C:/ci/pillow_1594299032796/work
+pyparsing==2.4.7
+python-dateutil==2.8.1
+pytz==2020.1
+regex @ file:///C:/ci/regex_1596829824428/work
+scikit-learn @ file:///C:/ci/scikit-learn_1598358870446/work
+scipy @ file:///C:/ci/scipy_1597675683670/work
+six==1.15.0
+tornado==6.0.4
+Werkzeug==1.0.1
+wincertstore==0.2
